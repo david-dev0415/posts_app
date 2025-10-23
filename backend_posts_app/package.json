@@ -1,0 +1,23 @@
+{
+  "name": "backend_posts_app",
+  "version": "1.0.0",
+  "description": "That's the backend for the Posts App of EcoRegistry",
+  "type": "module",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "tsx --env-file=.env src/app.ts",
+    "start": "node ./dist/app.js",
+    "build": ""
+  },
+  "keywords": [
+    "EcoRegistry",
+    "PostsApp",
+    "Backend"
+  ],
+  "author": "David Palacio",
+  "license": "ISC",
+  "packageManager": "pnpm@10.19.0",
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}
